@@ -26,7 +26,7 @@
 ?>
 
 <?php
-    $sql = "INSERT INTO student_record (id, full_name, gender, country)
+    $sql = "INSERT INTO student_records (id, full_name, gender, country)
     VALUES (null, '$fullname', '$gender', '$country')";
     
     if ($conn->query($sql) === TRUE) {
